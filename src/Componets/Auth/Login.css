@@ -1,0 +1,68 @@
+
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    
+}
+.activeColor{
+    padding-top:5px;
+    color: blueviolet;
+    text-decoration: underline;
+    width: 40%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.pointer{
+    cursor: pointer;
+    color: blue;
+    width: 40%;
+    text-decoration: underline;
+    padding-top: 5px;
+
+}
+.login-page{
+    background-color: blue;
+    height: 60vh;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+form{
+    
+    width: 200px;
+    padding: 5%;
+}
+.form-container{
+    background-color: aliceblue;
+    width: 300px;
+    
+}
+.input{
+    display: flex;
+    background: #fff;
+
+}
+.input input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    
+}
+.input .icon{
+    size: 20px;
+    width: 50px;
+    padding-top: 7px;
+}
+.forgot-password span a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+button{
+    width: 60%;
+    padding: 7px;
+    background: blue;
+    border: none;
+}
